@@ -1,0 +1,84 @@
+body {
+    font-family: "Great Vibes", cursive;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.unsplash.com/photo-1521684415672-2306f06332a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  }
+
+header {
+    margin: 50px;
+}
+
+p, ul, ol, #otherRecipe {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+#recipe {
+    font-family: arial;
+    color:rgb(69, 9, 97);
+    display: block;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(181, 165, 189);
+    width: 50%;
+    border: 1px solid #ccc!important;
+    box-shadow: 10px 5px 5px rgb(69, 9, 97);
+    border-radius: 2%;
+
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+h1, .share, footer {
+    color: yellow;
+}
+
+#survey-form {
+    font-family: arial;
+    text-align: left;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(130, 111, 139);
+    width: 50%;
+    border: 1px solid #ccc!important;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px rgb(69, 9, 97);
+}
+
+#submit {
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+#submit:hover {
+    opacity: 0.5;
+}

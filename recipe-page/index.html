@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>👩‍🍳 My recipe page</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><span>Welcome to My Recipe Page!</span></h1>
+    </header>
+
+    <main>
+      <section id="recipe">
+        <div class="history">
+          <h2>🧋 Brown sugar boba milk tea 🧋</h2>
+          <p>Boba culture started in the late '80s, and its origins are debated. Milk tea is well-known in Asia as tea drinking was a robust practice in East Asian countries. Now the boba culture is prevalent worldwide.</p>
+          <a href="https://food52.com/recipes/81063-brown-sugar-boba-bubble-tea" target="_blank">
+            <img src="https://images.food52.com/uzKqyZsIitMvFinRGU4t57vaIDw=/1320x880/filters:format(webp)/ff0c177a-14d7-47f7-92a0-ecbf51c0443b--2019-0430_homemade-brown-sugar-boba_3x2_ty-mecham_023.jpeg" alt="a cup of brown sugar boba milk tea">
+          </a>
+          <a href="https://food52.com/recipes/81063-brown-sugar-boba-bubble-tea" target="_blank">
+            <p class="caption">(Recipe credit to: Jun @Food52)</p>
+          </a>
+        </div><br>
+
+        <div class="ingredients">
+          <h3>❤ Ingredients ❤</h3>
+          <ul>
+            <li><span>6 cups</span> milk</li>
+            <li><span>2 tablespoons</span> loose black tea leaves (or 4 tea bags)</li>
+            <li><span>3 tablespoons</span> light brown sugar</li>
+            <li>Tapioca pearls</li>
+            <li>Ice cubes</li>
+          </ul>
+        </div><br>
+
+				<div class="steps">
+					<h3>❤ Steps ❤</h3>
+          <ol>
+          	<li><span>Milk tea:</span> Add the milk, tea leaves, and sugar into a pot, and heat it up until the milk starts to steam. Let the tea leaves steep in the hot milk for 15 to 20 minutes, then strain out the tea leaves. When the milk tea is cool enough, transfer it into a jug or bottle, and keep it in the refrigerator until it’s cold.</li><br>
+            <li><span>Cooking the pearls:</span> Ready a large pot of water, and bring it to a boil. Add in the tapioca pearls, and keep the water on a rolling boil for 20 minutes until the pearls are cooked through. Stir vigorously in the beginning to prevent the pearls from sticking, but once they start to float, you only need to stir the pot once every few minutes. Once the pearls are cooked, transfer them into a bowl of ice water to stop the cooking process and firm up slightly.</li><br>
+            <li><span>Braising the pearls:</span> To make the braising syrup, add the water and muscovado sugar in a small pot, and bring to a boil. Add in the chilled tapioca pearls, and turn the heat down to a slow simmer. Let the pearls braise for 20 to 25 minutes, until the braising liquid turns thick and syrupy. Keep it warm after it’s done cooking.</li><br>
+            <li><span>Serving:</span> To serve, tilt the glass or cup at a 45° angle, and place the tapioca pearls close to the lip of the glass, letting them slide down to the base. Repeat this on all sides to get a trippy, tiger stripe-like ripple effect, then add the ice cubes and milk tea. It’s best to drink it with a straw so you can get at the pearls as you drink the tea.</li>
+          </ol>
+				</div><br>
+
+				<div class="more-recipe">
+					<h3>❤ More recipes ❤</h3>
+					<a href="https://www.foxyfolksy.com/brown-sugar-milk-tea/" target="_blank" class="otherRecipe">Foxy Folksy's Brown Sugar Milk Tea Recipe</a><br>
+					<a href="https://www.honestfoodtalks.com/brown-sugar-milk-tea/" target="_blank"> Honest Food Talk's Recipe</a>
+				</div>
+
+    	</section><br><br>
+
+      <section id="survey">
+				<h2 class="share"><span>Let's share beverage recipes and keep in touch!</span></h2>
+        <form id="survey-form">
+          <label for="name" id="name-label"><span>Name</span><br>
+            <input type="text" required id="name" placeholder="Enter your name">
+          </label><br><br>
+          <label for="email" id="email-label"><span>Email</span><br>
+            <input type="email" required id="email" placeholder="Enter your email">
+          </label><br><br>
+          <label for="drop-down" id="dropdown-label"><span>Are you a coffee or tea person?</span><br>
+            <select id="dropdown" name="languages">
+              <option value="coffee">Coffee</option>
+              <option value="tea">Tea</option>
+              <option value="both">Both</option>
+              <option value="neither">Neither</option>
+            </select>
+          </label><br><br>
+          <label><span>Do you prefer making your own drinks to buying at a coffee/tea shop?</span><br>
+            <input type="radio" name="programing-style" value="yes">Yes, definitely<br>
+            <input type="radio" name="programing-style" value="no">Nah, no way<br>
+            <input type="radio" name="programing-style" value="neither">Meh, I don't care
+          </label><br><br>
+          <label><span>What social media do you use to share recipes?</span><br>
+            <input id="socialmedia" type="checkbox" name="socialmedia-choice" value="twitter">Twitter<br>
+            <input id="socialmedia" type="checkbox" name="socialmedia-choice" value="instagram">Instagram<br>
+            <input id="socialmedia" type="checkbox" name="socialmedia-choice" value="blog">Personal blog<br>
+            <input id="socialmedia" type="checkbox" name="socialmedia-choice" value="other">Other - please specify below
+          </label><br><br>
+          <label for="name" id="name-label"><span>Anything else you would like to share?</span><br>
+            <textarea name="comments" placeholder="Enter your comment here"></textarea>
+          </label><br><br>
+          <button type="submit" id="submit">Submit</button>   
+        </form>
+      </section>
+    </main><br><br>
+    
+		<footer>Made with ❤ by Xiao Zhong</footer>
+
+  </body>
+
+</html>
