@@ -127,3 +127,9 @@ h1, .share, footer {
 #submit:hover {
     opacity: 0.5;
 }
+
+@media (max-width: 1000px) {
+    header h1 {
+        font-size: 30px;
+    }
+}
