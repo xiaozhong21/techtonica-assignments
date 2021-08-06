@@ -1,0 +1,43 @@
+<!DOCTYPE html>   
+<html>
+<head>
+  <title>Guess My Number</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+</head>
+<body>
+  <header class="header">
+      <h1>Can you guess the secret number?</h1>
+  </header>
+  <main class="main">
+    <div class="range">
+      <p>Please pick a range for your secret number:</p>
+      <form id="user-input" onsubmit="return false">
+        <label for="min">From:</label>
+          <input type="number" id="min-num" name="min-num"
+        min="0" max="100" required>
+        <label for="max">To:</label>
+          <input type="number" id="max-num" name="max-num"
+        min="0" max="100" required><br><br>
+        <button id="secret-num-button" class="in-game-buttons">Generate Secret Number</button>
+      </form>
+    </div>
+    <div id="game-board" class="game-board-hidden">
+      <form id="check-answer" onsubmit="return false">
+        <label for="guess"><strong>Please enter your guess:</strong></label><br>
+          <input type="number" id="guess" name="min-num" min="0" max="100" required><br><br>
+        <button id="submit-guess-button" class="in-game-buttons">Submit my guess</button>
+      </form>
+    </div>
+    <!-- <div class="new-game">
+      <button id="new-game-button">New Game</button>
+    </div> -->
+  </main>
+  <footer>
+  <p class="copyrights">Xiao Zhong &copy; 2021</p>
+  </footer>
+  
+</body>
+</html>
