@@ -26,6 +26,8 @@ body {
   background-color: rgba(0, 0, 0, 0.235);
   max-width: 40%;
   margin: 20px auto;   
+  overflow: auto;
+  height: 500px;
 }
 
 input {
