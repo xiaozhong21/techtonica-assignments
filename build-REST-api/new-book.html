@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>New Book</title>
+  </head>
+  <body>
+    <div class="container">
+      <hr>
+      <h1>Add New Book to the Library</h1>
+      <hr>
+    
+      <form action="http://localhost:3000/book" method="POST">
+          <div class="form-group">
+              <label for="ISBN">ISBN</label><br>
+              <input class="form-control" id="ISBN" name="isbn">
+          </div>
+    
+          <div class="form-group">
+              <label for="Title">Title</label><br>
+              <input class="form-control" id="Title" name="title">
+          </div>
+
+          <div class="form-group">
+            <label for="Author">Author</label><br>
+            <input class="form-control" id="Author" name="author">
+          </div>
+
+          <div class="form-group">
+            <label for="Published-Date">Published Date</label><br>
+            <input type="date" class="form-control" id="Published-Date" name="published_date">
+          </div>
+
+          <div class="form-group">
+            <label for="Publisher">Publisher</label><br>
+            <input class="form-control" id="Publisher" name="publisher">
+          </div>
+
+          <div class="form-group">
+            <label for="Number-Of-Pages">Number of Pages</label><br>
+            <input class="form-control" id="Number-Of-Pages" name="numOfPages">
+          </div><br>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="book-api.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <hr>
+      <h1>Xiao's Library</h1>
+      <hr>
+      <div>
+          <div class="row" id="books">
+          </div>
+      </div>
+    </div>
+
+    <div id="editBookModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Edit Book</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div><br>
+
+              <div class="modal-body">
+                  <form id="editForm" method="POST">
+                      <div class="form-group">
+                          <label for="isbn">ISBN</label><br>
+                          <input class="form-control" name="isbn" id="isbn">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label for="title">Title</label><br>
+                          <input class="form-control" name="title" id="title">
+                      </div><br>
+
+                      <div class="form-group">
+                        <label for="author">Author</label><br>
+                        <input class="form-control" name="author" id="author">
+                    </div><br>
+        
+                    <div class="form-group">
+                        <label for="published_date">Published Date</label><br>
+                        <input class="form-control" name="published_date" id="published_date">
+                    </div><br>
+        
+                    <div class="form-group">
+                        <label for="publisher">Publisher</label><br>
+                        <input class="form-control" name="publisher" id="publisher">
+                    </div><br>
+        
+                    <div class="form-group">
+                        <label for="numOfPages">Number Of Pages</label><br>
+                        <input type="number" class="form-control" name="numOfPages" id="numOfPages">
+                    </div><br>
+        
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="book-list.js"></script>
+  </body>
+</html>
