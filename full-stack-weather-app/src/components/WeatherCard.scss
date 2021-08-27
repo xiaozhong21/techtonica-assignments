@@ -1,0 +1,54 @@
+@import "../main.scss";
+
+
+.WeatherCard {
+    color: black;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #d6a441 75%);
+    text-align: center;
+    min-height: 20rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.6rem;
+    transition: box-shadow 0.5s ease-out;
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+    }
+    &__icon {
+        max-width: 2.5rem;
+    }
+    &__temp {
+        font-size: 3rem;
+        line-height: 1;
+        height: 40%;
+    }
+    &__desc {
+        &__img {
+            min-width: 6rem;
+        }
+    }
+    &__content {
+        height: 100%;
+        &__columns {
+            height: 100%;
+        }
+        &__city {
+            min-height: 40%;
+            line-height: 2;
+        }
+    }
+}
+
+@include for-up-to-phone {
+    .WeatherCard {
+        &__content {
+            &__columns {
+                &.is-mobile {
+                    display: block;
+                }
+            }
+        }
+        &__temp {
+            font-size: 3rem;
+        }
+    }
+}
