@@ -1,0 +1,111 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: left;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 1vmin);
+  color: white;
+  margin: 20px;
+}
+
+.button {
+  background-color: rgb(239, 114, 5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: black;
+  background-color: aqua;
+}
+
+.score {
+  margin-bottom: 20px;
+  border: 1px white solid;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.description {
+  color: rgba(3, 147, 3, 0.996);
+  font-weight: bold;
+}
+
+.question-number, .result-message {
+  color: rgb(239, 114, 5);
+  font-weight: bold;
+}
+
+.question-title {
+  font-weight: bold;
+}
+
+input, label {
+  cursor: pointer;
+}
+
+#flag-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  border: 1px white solid;
+  grid-gap: 1px;
+}
+
+.flag {
+  width:120px;
+  height:204px;
+  visibility: hidden;
+  border: 1px white solid;
+}
+
+#flag1 {
+  background-image: url(./images/flag1.png);
+}
+
+#flag2 {
+  background-image: url(./images/flag2.png);
+}
+
+#flag3 {
+  background-image: url(./images/flag3.png);
+}
+
+#flag4 {
+  background-image: url(./images/flag4.png);
+}
+
+#flag5 {
+  background-image: url(./images/flag5.png);
+}
+
+#flag6 {
+  background-image: url(./images/flag6.png);
+}
+
+#flag7 {
+  background-image: url(./images/flag7.png);
+}
+
+#flag8 {
+  background-image: url(./images/flag8.png);
+}
+
+#flag9 {
+  background-image: url(./images/flag9.png);
+}
+
+#flag10 {
+  background-image: url(./images/flag10.png);
+}
+
