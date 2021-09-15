@@ -1,2 +1,6 @@
+---
+tags: coding practice projects fullstack
+---
+
 # Techtonica Assignments
-This repo holds my submissions for assignments at Techtonica.
+This repo holds my weekly projects completed at [Techtonica](https://techtonica.org/).
