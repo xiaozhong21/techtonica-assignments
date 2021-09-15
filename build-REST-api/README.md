@@ -1,11 +1,13 @@
 ---
-tags: Week 6 - REST api
+tags: week6 express api rest-api
 ---
 
-### Overview
+# REST API
+
+## Overview
 This project is a REST API to manage books with Node.js and Express.
 
-### Features implemented
+## Features implemented
 - View a list of books
 - Add new books
 - Delete books
